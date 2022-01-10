@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Teape</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/fancybox.css" />
+</head>
+
+<body>
+    <nav>
+        <span class="white_txt roboto" id="logo">JT</span>
+        <div id="navItemsContainer" class="desktopMenu" data-aos="fade-down">
+            <ul class="white_txt roboto_mono">
+                <a href="#section2">
+                    <li class="navItem">01.<span class="green1">about</span></li>
+                </a>
+                <a href="#section3">
+                    <li class="navItem">02.<span class="green1">work</span></li>
+                </a>
+                <a class="typeform-share button" href="https://form.typeform.com/to/Av1a9xu0" data-mode="popup"
+                    data-size="100" target="_blank">
+                    <li class="navItem">03.<span class="green1">contact</span></li>
+                </a>
+                <li class="navItem" data-fancybox data-src="#hidden-content-social">04.<span
+                        class="green1">social</span></li>
+            </ul>
+            <div style="display: none;" id="hidden-content-social">
+                <a href="https://github.com/JonathanTeape" target="_blank" style="text-decoration: none !important;">
+                    <div id="innerSocialContainer"><img src="assets/images/github.png" alt="" class="socialIcon"> <span
+                            style="vertical-align: -3px; color: black;">Github</span> </div>
+                </a>
+                <a href="LINKED IN" target="_blank" style="text-decoration: none !important;">
+                    <div id="innerSocialContainer"><img src="assets/images/linkedin.png" alt="" class="socialIcon">
+                        <span style="vertical-align: -3px; color: black;">Linkedin</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="mobileMenu">
+            <div class="hamburger" id="hamburger-12">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div id="innerMobileMenu" style='display:none;'>
+                <ul class="white_txt roboto_mono">
+                    <a href="#section2">
+                        <li class="navItem">01.<span class="green1">about</span></li>
+                    </a>
+                    <a href="#section3">
+                        <li class="navItem">02.<span class="green1">work</span></li>
+                    </a>
+                    <a class="typeform-share button" href="https://form.typeform.com/to/Av1a9xu0" data-mode="popup"
+                        data-size="100" target="_blank">
+                        <li class="navItem">03.<span class="green1">contact</span></li>
+                    </a>
+                    <li class="navItem" data-fancybox data-src="#hidden-content-social">04.<span
+                            class="green1">social</span></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="hero">
+        <div id="computerImgContainer" data-aos="fade-right"></div>
+        <span id="heroTxt">
+            <div class="green1 roboto_mono" id="herotxt1">Hi, my name is</div>
+            <div class="grey1 roboto" id="herotxt2">Jonathan Teape</div>
+            <div class="grey1 txt-rotate roboto" id="title" data-period="2000" data-rotate='[ "I am a data analyst."]'>
+            </div>
+            <a class="typeform-share button" href="https://form.typeform.com/to/Av1a9xu0" data-mode="popup"
+                data-size="100" target="_blank">
+                <div class="greenButton grey2 cta1 roboto">Get in touch.</div>
+            </a>
+        </span>
+        <img id="downArrow" src="assets/images/arrow.svg" />
+    </section>
+    <section id="section2">
+        <div id="phoneImgContainer" data-aos="fade-left"></div>
+        <span id="aboutTxt">
+            <li class="roboto_mono white_txt" id="aboutTitle" style="list-style: none;">01.<span
+                    class="green1">about</span><span class="greyLine"></span></li>
+            <div class="grey1 roboto" id="aboutTxt">
+                Hello 👋, I’m Jonathan! Whether this is your first visit, or your tenth, welcome! I specialize in data
+                analytics and
+                business intelligence . My goal is to excel in my field and teach others how to as well.
+
+                <br> <br>
+                Aside from data analytics, I love spending time with my family, playing video games, and fitness. So,
+                are ready to get
+                your data analyzed? Feel free to network with me!
+            </div>
+            <div class="green1 roboto" id="techStack">
+                <ul>
+                    <li class="skill">MySQL</li>
+                    <li class="skill">T-SQL</li>
+                </ul>
+                <ul>
+                    <li class="skill">Excel</li>
+                    <li class="skill">Tableau</li>
+                </ul>
+                <ul>
+                    <!--<
+                    <li class="skill">Python</li>
+                   <li class="skill">Placeholder</li>
+                    -->
+                </ul>
+            </div>
+        </span>
+    </section>
+    <section id="section3">
+        <li class="roboto_mono white_txt" id="aboutTitle" style="list-style: none;">02.<span
+                class="green1">Work</span><span class="greyLine"></span></li>
+        <span id="mainProjContainer" class="row">
+            <div id="projWrapper" data-aos="fade-down" class="col-sm col-md ">
+                <img src="assets/images/folderIcon.svg" alt="folder_icon" id="folderIcon">
+                <span id="projCtaContainer" class="roboto_mono">
+                    <a target="_blank" href="https://github.com/JonathanTeape/CovidProject">Github</a>
+                </span>
+                <title class="white_txt roboto_mono" id="projTitle">Covid 19 Analysis</title>
+                <div class="grey2 roboto" id="description">Data exploration presented in a tableau dashboard using a
+                    Covid 19 dataset to measure the scope of the pandemic.
+                </div>
+                <ul id=projTechContainer>
+                    <li class="projTech white_txt roboto">T-SQL</li>
+                    <li class="projTech white_txt roboto">Tableau</li>
+                    <li class="projTech white_txt roboto">Excel</li>
+                </ul>
+            </div>
+
+            <div id="projWrapper" data-aos="fade-down" class="col-sm col-md ">
+                <img src="assets/images/folderIcon.svg" alt="folder_icon" id="folderIcon">
+                <span id="projCtaContainer" class="roboto_mono">
+                    <a target="_blank" href="https://github.com/JonathanTeape/TorontoAirbnbProject">Github</a>
+                </span>
+                <title class="white_txt roboto_mono" id="projTitle">Toronto AirBNB Analysis</title>
+                <div class="grey2 roboto" id="description">A Airbnb dataset was used to analyze the most cost effective
+                    rentals within the Greater Toronto area.</div>
+                <ul id=projTechContainer>
+                    <li class="projTech white_txt roboto">T-SQL</li>
+                    <li class="projTech white_txt roboto">Tableau</li>
+                    <li class="projTech white_txt roboto">Excel</li>
+                </ul>
+            </div>
+
+            <div id="projWrapper" data-aos="fade-down" class="col-sm col-md ">
+                <img src="assets/images/folderIcon.svg" alt="folder_icon" id="folderIcon">
+                <span id="projCtaContainer" class="roboto_mono">
+                    <a target="_blank" href="https://github.com/JonathanTeape/Business-Request-Project">Github</a>
+                </span>
+                <title class="white_txt roboto_mono" id="projTitle">Business Request Project</title>
+                <div class="grey2 roboto" id="description">Data exploration and visualization using a mock business
+                    request <br></br></div>
+                <ul id=projTechContainer>
+                    <li class="projTech white_txt roboto">T-SQL</li>
+                    <li class="projTech white_txt roboto">Tableau</li>
+                    <li class="projTech white_txt roboto">Excel</li>
+                </ul>
+            </div>
+        </span>
+    </section>
+    <section id="section4">
+        <li class="roboto_mono white_txt" id="aboutTitle" style="list-style: none;">03.<span
+                class="green1">contact</span><span class="greyLine"></span></li>
+        <div class="grey2 roboto contactTxt">Let's talk.
+            <span id="vertLine"></span>
+            <a class="typeform-share button" href="https://form.typeform.com/to/Av1a9xu0" data-mode="popup"
+                data-size="100" target="_blank">
+                <div class="greenButton grey2 cta2 roboto" style="margin: 0 auto;">Get in touch.</div>
+            </a>
+        </div>
+    </section>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>'
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="js/fancybox.js"></script>
+<script src="js/index.js"></script>
+<script>
+    (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://form.typeform.com/to/Av1a9xu0"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()
+</script>
+
+</html>
